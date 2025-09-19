@@ -1,5 +1,4 @@
 ![Light Mode Logo](https://github.com/MeAkash77/My-Bank-Management-System-frontend/blob/main/Gemini_Generated_Image_f32y9yf32y9yf32y.png?raw=true)
-![Dark Mode Logo](https://github.com/ShuvoProgram/CholtiBank/blob/main/public/choltiBank_dark_1.png?raw=true#gh-dark-mode-only)
 
 # CholtiBank - Digital Banking Platform
 

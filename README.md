@@ -8,7 +8,7 @@ CholtiBank is the first digital bank in Bangladesh, revolutionizing the banking 
 
 ### Home Page
 
-![Home Page](<img width="949" height="428" alt="Image" src="https://github.com/user-attachments/assets/13e34c9c-77b0-49e0-a519-7818a23a6245" />)
+![Home Page](https://github.com/user-attachments/assets/13e34c9c-77b0-49e0-a519-7818a23a6245)
 
 <!-- ### Dashboard
 ![Home Page](https://i.ibb.co/Zh0K9SG/image.png) -->

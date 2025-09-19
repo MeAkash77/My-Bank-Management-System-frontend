@@ -1,6 +1,6 @@
 // scripts/createAdmin.ts
 import 'dotenv/config';
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 import prisma from '../src/shared/prisma';
 
 async function main() {

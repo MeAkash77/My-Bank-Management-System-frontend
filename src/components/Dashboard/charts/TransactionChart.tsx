@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import React from "react";
 import Chart, { Props } from "react-apexcharts";
@@ -18,8 +18,12 @@ const options: Props["options"] = {
   chart: {
     type: "area",
     animations: {
-      easing: "linear",
+      enabled: true,
       speed: 300,
+      dynamicAnimation: {
+        enabled: true,
+        speed: 300,
+      },
     },
     sparkline: {
       enabled: false,
@@ -37,10 +41,8 @@ const options: Props["options"] = {
   },
 
   xaxis: {
-    // type: "numeric",
     categories: [1, 2, 3, 4, 5, 6, 7],
     labels: {
-      // show: false,
       style: {
         colors: "hsl(var(--nextui-default-900))",
         fontFamily: "Inter, sans-serif",
@@ -72,23 +74,19 @@ const options: Props["options"] = {
   },
   stroke: {
     curve: "smooth",
-    fill: {
-      colors: ["bg-red-700"],
-    },
   },
-  // @ts-ignore
-  markers: false,
+  markers: {
+    size: 0, // hides markers instead of using @ts-ignore
+  },
 };
 
 export const TransactionChart = () => {
   return (
-    <>
-      <div className="w-full z-20">
-        <h2 className="text-xl font-bold mb-3" >Deposit & Withdraw Ratio</h2>
-        <div id="chart">
-          <Chart options={options} series={state} type="area" height={425} />
-        </div>
+    <div className="w-full z-20">
+      <h2 className="text-xl font-bold mb-3">Deposit & Withdraw Ratio</h2>
+      <div id="chart">
+        <Chart options={options} series={state} type="area" height={425} />
       </div>
-    </>
+    </div>
   );
 };

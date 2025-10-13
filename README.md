@@ -2,7 +2,7 @@
 
 # CholtiBank - Digital Banking Platform
 
-CholtiBank is the first digital bank in Bangladesh, revolutionizing the banking experience by providing a range of online services that were traditionally confined to physical branches. This project aims to digitize and streamline various banking processes, offering customers the convenience of accessing financial services from the comfort of their homes.
+My Bank is the first digital bank in India, revolutionizing the banking experience by providing a range of online services that were traditionally confined to physical branches. This project aims to digitize and streamline various banking processes, offering customers the convenience of accessing financial services from the comfort of their homes.
 
 ## Screenshots
 
